@@ -1,1 +1,5 @@
+blobstore:
+  provider: local
+  options:
+    blobstore_path: /tmp/bswca-blobs
 name: bosh-simple-with-cc-access
