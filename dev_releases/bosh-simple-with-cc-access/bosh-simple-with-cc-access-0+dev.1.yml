@@ -1,0 +1,21 @@
+name: bosh-simple-with-cc-access
+version: 0+dev.1
+commit_hash: 122d72a
+uncommitted_changes: true
+jobs:
+- name: service
+  version: e1beff5db18a9a794f9a1942e4e7cabb92176757
+  fingerprint: e1beff5db18a9a794f9a1942e4e7cabb92176757
+  sha1: 68bebad968a1f4c0db70be3029b3a92f8a4bef80
+packages:
+- name: ruby-2.4-r5
+  version: 726cbb2214e138b576700db6a30698edb2b994e2
+  fingerprint: 726cbb2214e138b576700db6a30698edb2b994e2
+  sha1: 6addce325a193d9f2c326dbd926ab42dc023f132
+  dependencies: []
+- name: service
+  version: 4e3834df025eb68b1b3977ec8312d4fb0e2fb75d
+  fingerprint: 4e3834df025eb68b1b3977ec8312d4fb0e2fb75d
+  sha1: f2756af3dd5a090538bf9ee0d25e744621386151
+  dependencies:
+  - ruby-2.4-r5

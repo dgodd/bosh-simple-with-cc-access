@@ -1,0 +1,8 @@
+---
+name: service
+
+dependencies:
+- ruby-2.4-r5
+
+files:
+- server.rb

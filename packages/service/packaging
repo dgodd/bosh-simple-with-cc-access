@@ -1,0 +1,9 @@
+#!/bin/bash
+
+set -eux
+
+# shellcheck disable=1090
+source "${BOSH_PACKAGES_DIR:-/var/vcap/packages}/ruby-2.4-r5/bosh/compile.env"
+
+cp -a server.rb ${BOSH_INSTALL_TARGET}
+bosh_generate_runtime_env

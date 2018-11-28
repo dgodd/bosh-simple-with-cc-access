@@ -1,0 +1,12 @@
+---
+name: service
+
+templates:
+  run: bin/run
+  cpi: bin/cpi
+
+packages:
+- ruby-2.4-r5
+- service
+
+properties: {}
